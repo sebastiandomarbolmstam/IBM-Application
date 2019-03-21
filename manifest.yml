@@ -3,4 +3,4 @@ applications:
   memory: 128M
   buildpack: sdk-for-nodejs
   services:
-  - IBM-KTH
+  - KTH-lab
