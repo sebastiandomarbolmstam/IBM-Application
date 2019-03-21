@@ -11,7 +11,8 @@
     <script src="./js/chart.js"></script>
   </head>
   <body>
-    <div id="console">
+    <h1>Hej</h2>
+  <!--  <div id="console">
     </div>
     <div id="chart_wrapper">
       <canvas id="chart">
@@ -23,7 +24,7 @@
 
       var chart = new TempChart("chart");
       chart.create();
-      
+
       /* Socket setup. */
       var socket = io();
       socket.on('connect', function(){DisplayMsg("Connected");});
@@ -33,7 +34,7 @@
       });
       socket.on('disconnect', function(){});
       socket.on('error', (error) => {console.log(error)});
-    </script>
+    </script>!-->>
 
   </body>
 </html>
